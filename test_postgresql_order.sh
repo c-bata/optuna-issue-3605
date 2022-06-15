@@ -15,6 +15,8 @@ docker run \
   --name optuna-postgres \
   postgres:14.3
 
+sleep 20
+
 echo "2. Run the order of trials"
 python example.py
 
